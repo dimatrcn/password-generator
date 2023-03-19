@@ -1,0 +1,73 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-container {
+    margin: 100px auto;
+    background: #1F2937;
+    width: 550px;
+    height: 550px;
+    border-radius: 20px;
+}
+
+h1 {
+    width: 400px;
+    padding: 100px 0px 0px 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 0px;
+}
+
+#highlight {
+    color: #4ADF86;
+}
+
+p {
+    color: #D5D4D8;
+    font-size: 20px;
+    padding-left: 60px;
+    margin-bottom: 50px;
+}
+
+#generate-passwords-btn {
+    background-color: #4ADF86;
+    padding: 10px;
+    color: white;
+    border: 1px solid #4ADF86;
+    border-radius: 5px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+#password-container {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    margin: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #2F3E53;
+}
+
+.password-btn {
+    width: 185px;
+    height: 40px;
+    background-color: #273549;
+    color: #4ADF86;
+    border: none;
+    border-radius: 5px;
+}
+
+#input-el {
+    width: 50px;
+    margin-left: 10px;
+    background-color: #273549;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
